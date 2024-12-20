@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Comments from "./Comments"
 
 const Post = () => {
     return (
@@ -82,6 +83,7 @@ const Post = () => {
                     </div>
                 </div>
             </div>
+            <Comments/>
         </div>
     )
 }
