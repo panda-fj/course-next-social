@@ -14,7 +14,7 @@ const UserInfoCard = ({ userId }: { userId: string }) => {
                 </Link>
             </div>
             {/* BOTTOM */}
-            <div className="flex flex-col gap-4 to-gray-500">
+            <div className="flex flex-col gap-4 text-gray-500">
                 <div className="flex items-center gap-2">
                     <span className="text-xl text-black">Lloyd Fleming</span>
                     <span className="text-sm">@jonathan</span>
